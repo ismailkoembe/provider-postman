@@ -1,3 +1,6 @@
+include .env
+export $(shell sed 's/=.*//' .env)
+
 PACTICIPANT ?= "pactflow-example-bi-directional-provider-postman"
 GITHUB_REPO := "pactflow/example-bi-directional-provider-postman"
 VERSION?=$(shell npx -y absolute-version)
