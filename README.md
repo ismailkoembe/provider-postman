@@ -6,7 +6,7 @@
 
 <!-- Can I Deploy Badge -->
 
-[![Can I deploy Status](https://testdemo.pactflow.io/pacticipants/pactflow-example-bi-directional-provider-postman/branches/master/latest-version/can-i-deploy/to-environment/production/badge)](https://testdemo.pactflow.io/pacticipants/pactflow-example-bi-directional-provider-postman/branches/master/latest-version/can-i-deploy/to-environment/production/badge)
+[![Can I deploy Status](https://testdemo.pactflow.io/pacticipants/ismail-provider-postman/branches/master/latest-version/can-i-deploy/to-environment/production/badge)](https://testdemo.pactflow.io/pacticipants/ismail-provider-postman/branches/master/latest-version/can-i-deploy/to-environment/production/badge)
 
 - [Example NodeJS Provider - Postman](#example-nodejs-provider---postman)
   - [Overview of Example](#overview-of-example)
@@ -78,11 +78,11 @@ When you run the CI pipeline (see below for doing this), the pipeline should per
 
 This project is currently compatible with the following consumers(s):
 
-- [pactflow-example-bi-directional-consumer-nock](https://github.com/pactflow/example-bi-directional-consumer-nock)
-- [pactflow-example-bi-directional-consumer-msw](https://github.com/pactflow/example-bi-directional-consumer-msw)
-- [pactflow-example-bi-directional-consumer-wiremock](https://github.com/pactflow/example-bi-directional-consumer-wiremock)
-- [pactflow-example-bi-directional-consumer-mountebank](https://github.com/pactflow/example-bi-directional-consumer-mountebank)
-<!-- * [pactflow-example-bi-directional-consumer-dotnet](https://github.com/pactflow/example-bi-directional-consumer-dotnet) -->
+- [ismail-consumer-nock](https://github.com/pactflow/example-bi-directional-consumer-nock)
+- [ismail-consumer-msw](https://github.com/pactflow/example-bi-directional-consumer-msw)
+- [ismail-consumer-wiremock](https://github.com/pactflow/example-bi-directional-consumer-wiremock)
+- [ismail-consumer-mountebank](https://github.com/pactflow/example-bi-directional-consumer-mountebank)
+<!-- * [ismail-consumer-dotnet](https://github.com/pactflow/example-bi-directional-consumer-dotnet) -->
 
 See [Environment variables](#environment-variables) on how to set these up
 

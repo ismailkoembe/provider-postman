@@ -1,8 +1,8 @@
 include .env
 export $(shell sed 's/=.*//' .env)
 
-PACTICIPANT ?= "pactflow-example-bi-directional-provider-postman"
-GITHUB_REPO := "pactflow/example-bi-directional-provider-postman"
+PACTICIPANT ?= "ismail-provider-postman"
+GITHUB_REPO := "ismailkoembe/provider-postman"
 VERSION?=$(shell npx -y absolute-version)
 BRANCH?=$(shell git rev-parse --abbrev-ref HEAD)
 

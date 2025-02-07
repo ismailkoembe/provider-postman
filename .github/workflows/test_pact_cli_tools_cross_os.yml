@@ -60,7 +60,7 @@ jobs:
       PACT_CLI_VERSION: ${{ needs.setup.outputs.PACT_CLI_VERSION}}
       PACT_CLI_STANDALONE_VERSION: ${{ needs.setup.outputs.PACT_CLI_STANDALONE_VERSION}}
       PACT_TOOL: ${{ matrix.pact_tool }}
-      PACTICIPANT: pactflow-example-bi-directional-provider-postman-${{ matrix.os }}-${{ matrix.pact_tool }}
+      PACTICIPANT: ismail-provider-postman-${{ matrix.os }}-${{ matrix.pact_tool }}
       BRANCH: ${{ needs.setup.outputs.BRANCH }}
     steps:
       - name: ⬇️ Checkout Repository
