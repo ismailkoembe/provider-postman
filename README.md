@@ -6,7 +6,7 @@
 
 <!-- Can I Deploy Badge -->
 
-[![Can I deploy Status](https://testdemo.pactflow.io/pacticipants/ismail-provider-postman/branches/master/latest-version/can-i-deploy/to-environment/production/badge)](https://testdemo.pactflow.io/pacticipants/ismail-provider-postman/branches/master/latest-version/can-i-deploy/to-environment/production/badge)
+[![Can I deploy Status](https://metro-markets-pact.pactflow.io//pacticipants/ismail-provider-postman/branches/master/latest-version/can-i-deploy/to-environment/production/badge)](https://metro-markets-pact.pactflow.io//pacticipants/ismail-provider-postman/branches/master/latest-version/can-i-deploy/to-environment/production/badge)
 
 - [Example NodeJS Provider - Postman](#example-nodejs-provider---postman)
   - [Overview of Example](#overview-of-example)
@@ -98,7 +98,7 @@ See [Environment variables](#environment-variables) on how to set these up
 To be able to run some of the commands locally, you will need to export the following environment variables into your shell:
 
 - `PACT_BROKER_TOKEN`: a valid [API token](https://docs.pactflow.io/docs/getting-started/#configuring-your-api-token) for PactFlow
-- `PACT_BROKER_BASE_URL`: a fully qualified domain name with protocol to your pact broker e.g. https://testdemo.pactflow.io
+- `PACT_BROKER_BASE_URL`: a fully qualified domain name with protocol to your pact broker e.g. https://metro-markets-pact.pactflow.io/
 
 ## Usage
 
