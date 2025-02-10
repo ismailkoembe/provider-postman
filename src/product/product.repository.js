@@ -8,9 +8,7 @@ class ProductRepository {
         new Product({
           id: "09",
           type: "CREDIT_CARD",
-          name: "Gem Visa",
-          version: "v1",
-          price: 99.99,
+          name: "Gem Visa"
         }),
       ],
       [
@@ -18,9 +16,7 @@ class ProductRepository {
         new Product({
           id: "10",
           type: "CREDIT_CARD",
-          name: "28 Degrees",
-          version: "v1",
-          price: 49.49,
+          name: "28 Degrees"
         }),
       ],
       [
@@ -28,9 +24,7 @@ class ProductRepository {
         new Product({
           id: "11",
           type: "PERSONAL_LOAN",
-          name: "MyFlexiPay",
-          version: "v2",
-          price: 16.5,
+          name: "MyFlexiPay"
         }),
       ],
     ]);
